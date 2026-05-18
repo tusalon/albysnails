@@ -1,0 +1,15 @@
+Hola Albys Nails, ya tu app de reservas está lista.
+
+Puedes entrar desde este enlace:
+https://tusalon.github.io/albysnails/
+
+Panel de administración:
+https://tusalon.github.io/albysnails/admin.html
+
+Datos de acceso:
+Teléfono: 55346987
+Contraseña: alb2026
+
+Desde el panel puedes revisar reservas, crear y editar servicios, organizar categorías, configurar horarios, gestionar profesionales y administrar tus clientes.
+
+Recomendación: guarda el enlace y prueba crear una reserva de ejemplo para confirmar que todo quedó como quieres.

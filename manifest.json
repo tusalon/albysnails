@@ -1,0 +1,22 @@
+{
+  "name": "Albys Nails",
+  "short_name": "Albys",
+  "description": "Uñas y belleza - Tu espacio de cuidado personal",
+  "start_url": "/albysnails/",
+  "scope": "/albysnails/",
+  "display": "standalone",
+  "background_color": "#ec4899",
+  "theme_color": "#ec4899",
+  "icons": [
+    {
+      "src": "/albysnails/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/albysnails/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
