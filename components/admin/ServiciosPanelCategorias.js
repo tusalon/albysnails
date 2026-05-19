@@ -131,8 +131,15 @@ function ServiciosPanel() {
     };
 
     const guardarServicio = async (servicio) => {
-        if (editando) await window.salonServicios.actualizar(editando.id, servicio);
-        else await window.salonServicios.crear(servicio);
+        const resultado = editando
+            ? await window.salonServicios.actualizar(editando.id, servicio)
+            : await window.salonServicios.crear(servicio);
+
+        if (!resultado) {
+            alert('No se pudo guardar el servicio. Revisa la consola para ver el detalle de Supabase.');
+            return;
+        }
+
         setMostrarForm(false);
         setEditando(null);
         await cargarDatos();
@@ -146,7 +153,6 @@ function ServiciosPanel() {
             precio: servicio.precio,
             descripcion: servicio.descripcion || '',
             imagen: servicio.imagen || null,
-            imagen_public_id: servicio.imagen_public_id || null,
             horarios_permitidos: servicio.horarios_permitidos || []
         });
         await cargarDatos();
