@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Albys Nails
 
-const CACHE_NAME = 'albysnails-v29';
+const CACHE_NAME = 'albysnails-v1';
 const urlsToCache = [
   '/albysnails/',
   '/albysnails/index.html',
