@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Albys Nails
 
-const CACHE_NAME = 'albysnails-v29';
+const CACHE_NAME = 'albysnails-v47';
 const urlsToCache = [
   '/albysnails/',
   '/albysnails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/albysnails/icons/icon-152x152.png',
   '/albysnails/icons/icon-192x192.png',
   '/albysnails/icons/icon-384x384.png',
-  '/albysnails/icons/icon-512x512.png'
+  '/albysnails/icons/icon-512x512.png',
+  '/albysnails/vendor/react.production.min.js',
+  '/albysnails/vendor/react-dom.production.min.js',
+  '/albysnails/vendor/babel.min.js',
+  '/albysnails/vendor/bcrypt.min.js',
+  '/albysnails/vendor/tailwind-browser.js',
+  '/albysnails/vendor/lucide/lucide.css',
+  '/albysnails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
